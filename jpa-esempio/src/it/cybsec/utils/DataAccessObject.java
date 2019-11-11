@@ -62,8 +62,8 @@ public interface DataAccessObject<O,K> {
 	O recupera(K id);
 	List<O> recupera();
 	List<O> recupera(CriteriaQuery<O> query);
-	void nuovo(O obj) throws Exception ;
-	void salva(O obj) throws Exception ;
-	void elimina(O obj) throws Exception ;
+	void nuovo(O obj) throws Exception;
+	void salva(O obj) throws Exception;
+	void elimina(O obj) throws Exception;
 	
 }
