@@ -77,14 +77,14 @@ button {
 					name="cognome" />
 			</div>
 			<div class="inline">
-				<label for="settore">Ruolo:</label> <select name="ruolo">
+				<label for="ruolo">Ruolo:</label> <select name="ruolo">
 					<c:forEach var="ruolo" items="${ruoli}">
 						<option value="${ruolo.id}">${ruolo.nome}</option>
 					</c:forEach>
 				</select>
 			</div>
 			<div class="inline">
-				<label for="settore">Ufficio:</label> <select name="ufficio">
+				<label for="ufficio">Ufficio:</label> <select name="ufficio">
 					<c:forEach var="ufficio" items="${uffici}">
 						<option value="${ufficio.id}">${ufficio.nome}</option>
 					</c:forEach>
