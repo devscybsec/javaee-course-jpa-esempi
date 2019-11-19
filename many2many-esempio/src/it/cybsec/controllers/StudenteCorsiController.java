@@ -64,7 +64,7 @@ public class StudenteCorsiController extends HttpServlet implements Servlet {
 			if (corsiStudente == null)
 				corsiStudente = new LinkedList<Corso>();			
 			corsiStudente.add(daoCorso.recupera(Integer.parseInt(request.getParameter("corso"))));
-			studente.setCorsi(corsiStudente);
+//			studente.setCorsi(corsiStudente);
 			
 			dao.salva(studente);
 			
